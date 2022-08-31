@@ -35,6 +35,7 @@ function App() {
       <div className="container searchApp">
         <SearchBar onSearch={onSearch} />
         <CardList results={state.results} />
+        <h1>Hello CICD</h1>
       </div>
     </div>
   );
